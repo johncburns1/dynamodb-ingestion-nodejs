@@ -6,6 +6,7 @@ const fs = require('fs')
 AWS.config.region = process.env.REGION
 
 // Set constants from environment variables
+const file_path = process.env.INGESTION_DATA_FILE_PATH
 const secure_ip_address_table = process.env.SECURE_IP_ADDRESS_TABLE
 const servers_info_table = process.env.SERVERS_INFO_TABLE
 const user_role_table = process.env.USER_ROLE_TABLE
@@ -22,7 +23,7 @@ execute()
 // DynamoDB table.
 async function writeDynamoDataAsync(table) {
   console.log('Ingesting data into table ' + table + '...')
-  const path = table + '.json'
+  const path = file_path + '' + table + '.json'
   const rawdata = fs.readFileSync(path)
   const ingestData = JSON.parse(rawdata)
     
