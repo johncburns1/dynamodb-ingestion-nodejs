@@ -1,6 +1,3 @@
-# See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.145.1/containers/ubuntu/.devcontainer/base.Dockerfile
-
-# [Choice] Ubuntu version: bionic, focal
 FROM ubuntu
 
 # Install utils
@@ -35,6 +32,6 @@ RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2
 # Set env variables
 ENV NODE_PATH=/usr/lib/node_modules
 ENV REGION=us-west-2
-ENV CREDIT_SECURE_IP_ADDRESS_TABLE=credit-secure-ip-address-dev
-ENV CREDIT_SERVERS_INFO_TABLE=credit-servers-info-dev
-ENV CREDIT_USER_ROLE_TABLE=credit-user-role-dev
+ENV SECURE_IP_ADDRESS_TABLE=secure-ip-address
+ENV SERVERS_INFO_TABLE=servers-info
+ENV USER_ROLE_TABLE=user-role

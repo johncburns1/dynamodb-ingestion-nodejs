@@ -1,0 +1,11 @@
+[
+    {"user_id": "jack", "Auditor": "Y", "Admin": "", "SuperAdmin": ""},
+    {"user_id": "jill", "Auditor": "", "Admin": "", "SuperAdmin": ""},
+    {"user_id": "bill", "Auditor": "Y", "Admin": "Y", "SuperAdmin": "Y"},
+    {"user_id": "skip", "Auditor": "Y", "Admin": "Y", "SuperAdmin": ""},
+    {"user_id": "shannon", "Auditor": "Y", "Admin": "Y", "SuperAdmin": ""},
+    {"user_id": "max", "Auditor": "Y", "Admin": "Y", "SuperAdmin": ""},
+    {"user_id": "shift", "Auditor": "", "Admin": "", "SuperAdmin": ""},
+    {"user_id": "rasputin", "Auditor": "Y", "Admin": "Y", "SuperAdmin": ""},
+    {"user_id": "zsar", "Auditor": "Y", "Admin": "Y", "SuperAdmin": ""}
+]

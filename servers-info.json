@@ -1,0 +1,16 @@
+[
+    { 
+        "server_name": "TESTSFS", 
+        "folder_mapping": [
+            { "folder" : "abcd", "id" : "abcd" },
+            { "folder" : "efg", "id" : "abcd" },
+            { "folder" : "hijk", "id" : "abcd" },
+            { "folder" : "lmno", "id" : "abcd" },
+            { "folder" : "pqrs", "id" : "abcd" },
+            { "folder" : "tuv", "id" : "abcd" },
+            { "folder" : "wx", "id" : "abcd" },
+            { "folder" : "yz", "id" : "abcd" },
+            { "folder" : "noiknowmyabcs", "id" : "abcd" }
+        ]
+    }
+]
