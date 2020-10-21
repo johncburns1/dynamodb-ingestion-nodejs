@@ -1,0 +1,11 @@
+[
+    {"user_id": "CAD_Developer_Dev_C", "Auditor": "Y", "SFSAdmin": "", "CreditAdmin": ""},
+    {"user_id": "CREDIT_SFT_Dev_C", "Auditor": "", "SFSAdmin": "", "CreditAdmin": ""},
+    {"user_id": "CREDIT_SecureFileTransfer_Users", "Auditor": "Y", "SFSAdmin": "Y", "CreditAdmin": "Y"},
+    {"user_id": "Glenn.Moran", "Auditor": "Y", "SFSAdmin": "Y", "CreditAdmin": ""},
+    {"user_id": "Jason.Max", "Auditor": "Y", "SFSAdmin": "Y", "CreditAdmin": ""},
+    {"user_id": "Josh.J.Maletz", "Auditor": "Y", "SFSAdmin": "Y", "CreditAdmin": ""},
+    {"user_id": "Nithy.Chandran", "Auditor": "", "SFSAdmin": "", "CreditAdmin": ""},
+    {"user_id": "Prathap.Chandran", "Auditor": "Y", "SFSAdmin": "Y", "CreditAdmin": ""},
+    {"user_id": "Sonam.Mathews", "Auditor": "Y", "SFSAdmin": "Y", "CreditAdmin": ""}
+]
